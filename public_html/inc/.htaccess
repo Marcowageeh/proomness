@@ -1,0 +1,5 @@
+# Deny direct access to PHP files within the inc directory and disable directory listing
+Options -Indexes
+<FilesMatch "\.php$">
+  Require all denied
+</FilesMatch>

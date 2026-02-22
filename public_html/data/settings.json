@@ -1,0 +1,47 @@
+{
+    "site_name": "proomnes",
+    "slogan": {
+        "ar": "إدارة موثوقة للتطبيقات والمواقع",
+        "en": "Reliable management for apps & websites",
+        "fr": "Gestion fiable pour applis & sites"
+    },
+    "default_lang": "ar",
+    "languages": [
+        "ar",
+        "en",
+        "fr"
+    ],
+    "domain": "https:\/\/proomnes.company\/",
+    "contact_email": "hello@proomnes.com",
+    "phone": "+201552725232",
+    "address": {
+        "ar": "اكتب عنوانك هنا",
+        "en": "Add your address here",
+        "fr": "Ajoutez votre adresse ici"
+    },
+    "hours": {
+        "ar": "الأحد–الخميس: 9:00–18:00 (GMT+X) — دعم 24\/7 في الباقة المتقدمة",
+        "en": "Sun–Thu 9:00–18:00 (GMT+X). 24\/7 support on Advanced plan",
+        "fr": "Dim–Jeu 9:00–18:00 (GMT+X). Support 24\/7 en offre Avancée"
+    },
+    "logos": {
+        "primary": "assets\/images\/logo1.png",
+        "secondary": "assets\/images\/logo2.png",
+        "og": "assets\/images\/logo2.png"
+    },
+    "payments": {
+        "stripe_public": "",
+        "stripe_secret": "",
+        "currency": "usd",
+        "success_url": "https:\/\/proomnes.company\/success.php",
+        "cancel_url": "https:\/\/proomnes.company\/cancel.php",
+        "paypal_business": ""
+    },
+    "integrations": {
+        "webhook_url": "",
+        "hubspot_portal_id": "",
+        "hubspot_form_guid": "",
+        "hubspot_token": "",
+        "zoho_access_token": ""
+    }
+}

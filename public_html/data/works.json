@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Brand refresh",
+    "image": "assets/images/logo2.png",
+    "url": "#",
+    "desc": {
+      "en": "Logo and palette revamp for SaaS.",
+      "ar": "تحديث الشعار ولوحة الألوان لشركة SaaS"
+    }
+  },
+  {
+    "title": "Landing page",
+    "image": "assets/images/hero.jpg",
+    "url": "#",
+    "desc": {
+      "en": "High‑conversion landing page.",
+      "ar": "صفحة هبوط عالية التحويل"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+﻿[
+  {
+    "q": {"ar": "ما هي الخدمات التي تقدمها Proomnes؟", "en": "What services does Proomnes provide?", "fr": "Quels services propose Proomnes ?"},
+    "a": {"ar": "نقدم إدارة كاملة للتطبيقات والمواقع، تشمل الاستضافة المُدارة، الصيانة الدورية، الأمن السيبراني، تحسين الأداء، تكاملات API، والدعم الفني.", "en": "We offer full app & website management including managed hosting, maintenance, cybersecurity, performance optimization, API integrations, and technical support.", "fr": "Nous offrons la gestion complète d'apps et sites web : hébergement géré, maintenance, cybersécurité, optimisation, intégrations API et support."}
+  },
+  {
+    "q": {"ar": "ما مستوى الدعم الفني؟", "en": "What support levels do you offer?", "fr": "Quels niveaux de support offrez-vous ?"},
+    "a": {"ar": "ندعم التذاكر خلال ساعات العمل (الباقة الأساسية)، دعم جزئي 24/7 (المتوسطة)، ودعم كامل 24/7 مع SLA (المتقدمة).", "en": "Business-hours ticket support (Basic), partial 24/7 support (Standard), and full 24/7 support with SLA (Advanced).", "fr": "Support tickets heures ouvrées (Basique), 24/7 partiel (Standard), et 24/7 complet avec SLA (Avancée)."}
+  },
+  {
+    "q": {"ar": "هل لديكم اتفاقية مستوى خدمة (SLA)؟", "en": "Do you provide SLAs?", "fr": "Fournissez-vous des SLA ?"},
+    "a": {"ar": "نعم، للباقات المتوسطة والمتقدمة مع ضمان وقت تشغيل 99.9% وزمن استجابة محدد.", "en": "Yes, for Standard and Advanced plans with 99.9% uptime guarantee and defined response times.", "fr": "Oui, pour les plans Standard et Avancé avec garantie 99.9% et temps de réponse définis."}
+  },
+  {
+    "q": {"ar": "كيف تحمون بياناتنا؟", "en": "How do you protect our data?", "fr": "Comment protégez-vous nos données ?"},
+    "a": {"ar": "نستخدم تشفير SSL/TLS، جدران حماية WAF، نسخ احتياطي يومي، مراقبة مستمرة، واختبارات اختراق دورية.", "en": "We use SSL/TLS encryption, WAF firewalls, daily backups, continuous monitoring, and periodic penetration testing.", "fr": "Chiffrement SSL/TLS, pare-feu WAF, sauvegardes quotidiennes, surveillance continue et tests de pénétration."}
+  },
+  {
+    "q": {"ar": "هل يمكنكم التعامل مع مواقع كبيرة الحجم؟", "en": "Can you handle large-scale websites?", "fr": "Gérez-vous les sites à grande échelle ?"},
+    "a": {"ar": "نعم، مع Auto-scaling و Load Balancing و CDN وتحسين قواعد البيانات.", "en": "Yes, with auto-scaling, load balancing, CDN, and database optimization.", "fr": "Oui, avec auto-scaling, load balancing, CDN et optimisation BD."}
+  },
+  {
+    "q": {"ar": "كم يستغرق إعداد الخدمة؟", "en": "How long does setup take?", "fr": "Combien de temps prend la mise en place ?"},
+    "a": {"ar": "عادةً 3-5 أيام عمل للباقة الأساسية و5-10 أيام للباقات المتقدمة حسب تعقيد البنية.", "en": "Typically 3-5 business days for Basic and 5-10 days for Advanced plans depending on infrastructure complexity.", "fr": "Généralement 3-5 jours ouvrés pour Basique et 5-10 jours pour Avancé selon la complexité."}
+  },
+  {
+    "q": {"ar": "هل يمكنني ترقية أو تخفيض باقتي؟", "en": "Can I upgrade or downgrade my plan?", "fr": "Puis-je changer de forfait ?"},
+    "a": {"ar": "بالطبع! يمكنك الترقية أو التخفيض في أي وقت مع حساب الفرق بشكل تناسبي.", "en": "Absolutely! You can upgrade or downgrade anytime with prorated billing adjustments.", "fr": "Bien sûr ! Changez à tout moment avec ajustement au prorata."}
+  },
+  {
+    "q": {"ar": "هل تقدمون استشارة مجانية؟", "en": "Do you offer a free consultation?", "fr": "Offrez-vous une consultation gratuite ?"},
+    "a": {"ar": "نعم، نقدم استشارة مجانية أولية لتقييم احتياجاتك وتحديد الخطة المناسبة.", "en": "Yes, we provide a free initial consultation to assess your needs and recommend the right plan.", "fr": "Oui, nous offrons une consultation initiale gratuite pour évaluer vos besoins."}
+  }
+]

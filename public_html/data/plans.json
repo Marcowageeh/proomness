@@ -1,0 +1,121 @@
+[
+  {
+    "id": "basic",
+    "name": {
+      "ar": "باقة الأساسية",
+      "en": "Basic",
+      "fr": "Basique"
+    },
+    "price": "250$",
+    "period": {
+      "ar": "/شهر",
+      "en": "/mo",
+      "fr": "/mois"
+    },
+    "features": [
+      {
+        "ar": "صيانة دورية",
+        "en": "Routine maintenance",
+        "fr": "Maintenance courante"
+      },
+      {
+        "ar": "نسخ احتياطي أسبوعي",
+        "en": "Weekly backups",
+        "fr": "Sauvegarde hebdomadaire"
+      },
+      {
+        "ar": "تحديثات أمنية شهرية",
+        "en": "Monthly security updates",
+        "fr": "MÀJ sécurité mensuelle"
+      },
+      {
+        "ar": "دعم تذاكر 9-5 أيام عمل",
+        "en": "Ticket support 9–5",
+        "fr": "Support tickets 9–5"
+      }
+    ]
+  },
+  {
+    "id": "standard",
+    "name": {
+      "ar": "باقة متوسطة",
+      "en": "Standard",
+      "fr": "Standard"
+    },
+    "price": "600$",
+    "period": {
+      "ar": "/شهر",
+      "en": "/mo",
+      "fr": "/mois"
+    },
+    "features": [
+      {
+        "ar": "كل ما في الأساسية",
+        "en": "Everything in Basic",
+        "fr": "Tout du Basique"
+      },
+      {
+        "ar": "مراقبة 24/7",
+        "en": "24/7 monitoring",
+        "fr": "Surveillance 24/7"
+      },
+      {
+        "ar": "تحديثات أمنية أسبوعية",
+        "en": "Weekly security updates",
+        "fr": "MÀJ sécurité hebdo"
+      },
+      {
+        "ar": "تقارير أداء شهرية",
+        "en": "Monthly performance reports",
+        "fr": "Rapports mensuels"
+      },
+      {
+        "ar": "دعم جزئي 24/7",
+        "en": "Partial 24/7 support",
+        "fr": "Support 24/7 partiel"
+      }
+    ],
+    "popular": true
+  },
+  {
+    "id": "advanced",
+    "name": {
+      "ar": "باقة متقدمة",
+      "en": "Advanced",
+      "fr": "Avancée"
+    },
+    "price": "1500$+",
+    "period": {
+      "ar": "/شهر",
+      "en": "/mo",
+      "fr": "/mois"
+    },
+    "features": [
+      {
+        "ar": "إدارة كاملة واستضافة مُدارة",
+        "en": "Full management & hosting",
+        "fr": "Gestion complète & hébergement"
+      },
+      {
+        "ar": "تكاملات وSRE",
+        "en": "Integrations & SRE",
+        "fr": "Intégrations & SRE"
+      },
+      {
+        "ar": "تقارير أسبوعية",
+        "en": "Weekly reports",
+        "fr": "Rapports hebdo"
+      },
+      {
+        "ar": "أولوية بالاستجابة",
+        "en": "Priority response",
+        "fr": "Réponse prioritaire"
+      },
+      {
+        "ar": "دعم 24/7 مع SLA",
+        "en": "24/7 support with SLA",
+        "fr": "Support 24/7 avec SLA"
+      }
+    ]
+  }
+]

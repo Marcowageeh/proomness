@@ -1,0 +1,22 @@
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Pro Omnes",
+  "url": "https://proomnes.company",
+  "logo": "https://proomnes.company/assets/img/logo.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "info@proomnes.company",
+      "availableLanguage": [
+        "ar"
+      ]
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/PROOMNES_PLACEHOLDER",
+    "https://www.instagram.com/PROOMNES_PLACEHOLDER",
+    "https://www.linkedin.com/company/PROOMNES_PLACEHOLDER"
+  ]
+}</script>

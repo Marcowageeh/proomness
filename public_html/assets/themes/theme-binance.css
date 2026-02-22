@@ -1,0 +1,19 @@
+/* Binance-inspired dark theme with red and gold accents */
+:root {
+  /* Backgrounds */
+  --bg: #050505;
+  --surface: #0d0d0d;
+  --surface-2: #171717;
+  /* Primary palette: bold red transitioning to golden yellow */
+  --primary: #e02020;
+  --primary-2: #f0b90b;
+  /* Accent colour to complement the palette */
+  --accent: #f0b90b;
+  /* Text colours */
+  --text: #f5f5f5;
+  --muted: #b3b3b3;
+  /* Other variables */
+  --radius: 14px;
+  --container: 1200px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,29 @@
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+
+# Rate limit cache
+public_html/data/client_push_rate.json
+
+# SQLite databases (contain user data — exclude from repo)
+# Uncomment below if you want to exclude DB files:
+# public_html/data/*.sqlite
+
+# Uploads (user-generated content)
+# public_html/assets/uploads/*
+# !public_html/assets/uploads/.gitkeep
+
+# DO NOT UPLOAD marker
+DO_NOT_UPLOAD_HERE

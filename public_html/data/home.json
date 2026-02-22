@@ -1,0 +1,292 @@
+{
+  "badge": {
+    "ar": "إدارة رقمية",
+    "en": "Digital Management",
+    "fr": "Gestion numérique"
+  },
+  "heroTitle": {
+    "ar": "إدارة محترفة لتطبيقاتك ومواقعك الإلكترونية",
+    "en": "Professional management for your apps & websites",
+    "fr": "Gestion professionnelle de vos applis & sites"
+  },
+  "heroDesc": {
+    "ar": "صيانة دورية، استضافة مُدارة، أمن سيبراني، وتحسين أداء.",
+    "en": "Managed maintenance, hosting, security, and performance.",
+    "fr": "Maintenance gérée, hébergement, sécurité et performance."
+  },
+  "ctaPrimary": {
+    "ar": "اطلب عرضًا مجانيًا",
+    "en": "Get a free quote",
+    "fr": "Obtenir un devis gratuit"
+  },
+  "ctaSecondary": {
+    "ar": "شاهد الباقات والأسعار",
+    "en": "View plans & pricing",
+    "fr": "Voir forfaits & tarifs"
+  },
+  "services": [
+    {
+      "slug": "application-management",
+      "icon": "🛠️",
+      "title": {
+        "ar": "إدارة التطبيقات",
+        "en": "Application Management",
+        "fr": "Gestion d’applications"
+      },
+      "desc": {
+        "ar": "صيانة دورية، إصلاح الأعطال، وإدارة الإصدارات.",
+        "en": "Maintenance, bug fixing, release management.",
+        "fr": "Maintenance, correction des bugs, gestion des versions."
+      }
+    },
+    {
+      "slug": "website-management",
+      "icon": "🌐",
+      "title": {
+        "ar": "إدارة المواقع الإلكترونية",
+        "en": "Website Management",
+        "fr": "Gestion de sites web"
+      },
+      "desc": {
+        "ar": "تحديث محتوى، SEO تقني، وصيانة CMS.",
+        "en": "Content updates, technical SEO, CMS upkeep.",
+        "fr": "Mises à jour de contenu, SEO technique, CMS."
+      }
+    },
+    {
+      "slug": "hosting-infrastructure",
+      "icon": "☁️",
+      "title": {
+        "ar": "استضافة مُدارة",
+        "en": "Managed Hosting",
+        "fr": "Hébergement géré"
+      },
+      "desc": {
+        "ar": "نسخ احتياطي ومراقبة وإعدادات أمنية.",
+        "en": "Backups, monitoring, security hardening.",
+        "fr": "Sauvegardes, surveillance, durcissement de sécurité."
+      }
+    },
+    {
+      "slug": "performance",
+      "icon": "⚡",
+      "title": {
+        "ar": "تحسين الأداء",
+        "en": "Performance Tuning",
+        "fr": "Optimisation des performances"
+      },
+      "desc": {
+        "ar": "Caching وCDN وتحسين قواعد البيانات.",
+        "en": "Caching, CDN, DB tuning.",
+        "fr": "Caching, CDN, optimisation BD."
+      }
+    },
+    {
+      "slug": "security",
+      "icon": "🛡️",
+      "title": {
+        "ar": "الأمن والحماية",
+        "en": "Security & Compliance",
+        "fr": "Sécurité & conformité"
+      },
+      "desc": {
+        "ar": "WAF، اختبارات اختراق، واستجابة للحوادث.",
+        "en": "WAF, pentests, incident response.",
+        "fr": "WAF, pentests, réponse aux incidents."
+      }
+    },
+    {
+      "slug": "api-integrations",
+      "icon": "🔗",
+      "title": {
+        "ar": "تكامل API",
+        "en": "API Integrations",
+        "fr": "Intégrations API"
+      },
+      "desc": {
+        "ar": "ربط الأنظمة والمدفوعات والبريد.",
+        "en": "Payments, CRMs, mail & 3rd‑party APIs.",
+        "fr": "Paiements, CRM, mail & APIs tierces."
+      }
+    },
+    {
+      "slug": "sre",
+      "icon": "📈",
+      "title": {
+        "ar": "دعم وعمليات (SRE)",
+        "en": "Support & SRE",
+        "fr": "Support & SRE"
+      },
+      "desc": {
+        "ar": "مراقبة 24/7 وإدارة الحوادث.",
+        "en": "24/7 monitoring & incident mgmt.",
+        "fr": "Surveillance 24/7 & gestion incidents."
+      }
+    },
+    {
+      "slug": "analytics-growth",
+      "icon": "🧠",
+      "title": {
+        "ar": "تحليلات ونمو",
+        "en": "Analytics & Growth",
+        "fr": "Analytique & croissance"
+      },
+      "desc": {
+        "ar": "GA4 وتقارير شهرية واختبارات A/B.",
+        "en": "GA4, monthly reports, A/B tests.",
+        "fr": "GA4, rapports mensuels, tests A/B."
+      }
+    }
+  ],
+  "process": [
+    {
+      "title": {
+        "ar": "اكتشاف وقياس",
+        "en": "Discovery & Assessment",
+        "fr": "Découverte & audit"
+      },
+      "desc": {
+        "ar": "مراجعة البنية وتحديد الأهداف.",
+        "en": "Review stack and set goals.",
+        "fr": "Analyser l’existant et fixer les objectifs."
+      }
+    },
+    {
+      "title": {
+        "ar": "تصميم خطة إدارة",
+        "en": "Management Plan",
+        "fr": "Plan de gestion"
+      },
+      "desc": {
+        "ar": "مهام الصيانة، الاستضافة، وSLA.",
+        "en": "Maintenance, hosting needs, SLAs.",
+        "fr": "Maintenance, hébergement, SLA."
+      }
+    },
+    {
+      "title": {
+        "ar": "تنفيذ وتحسين",
+        "en": "Execution & Optimization",
+        "fr": "Exécution & optimisation"
+      },
+      "desc": {
+        "ar": "تحديثات وتحسين أداء وأمن.",
+        "en": "Updates, performance, hardening.",
+        "fr": "Mises à jour, performance, sécurité."
+      }
+    },
+    {
+      "title": {
+        "ar": "مراقبة ودعم",
+        "en": "Monitoring & Support",
+        "fr": "Surveillance & support"
+      },
+      "desc": {
+        "ar": "مراقبة 24/7 وتقارير.",
+        "en": "24/7 monitoring and reports.",
+        "fr": "Surveillance 24/7 et rapports."
+      }
+    },
+    {
+      "title": {
+        "ar": "تطوير مستمر",
+        "en": "Continuous Improvement",
+        "fr": "Amélioration continue"
+      },
+      "desc": {
+        "ar": "تحسينات دورية وقيمة أعمال.",
+        "en": "Iterative improvements and value.",
+        "fr": "Améliorations continues & valeur."
+      }
+    }
+  ],
+  "why": [
+    {
+      "title": {
+        "ar": "خبرة عملية",
+        "en": "Hands‑on expertise",
+        "fr": "Expertise terrain"
+      },
+      "desc": {
+        "ar": "مهندسون بخبرة أنظمة عالية التوافر.",
+        "en": "Engineers with HA systems experience.",
+        "fr": "Ingénieurs expérimentés HA."
+      }
+    },
+    {
+      "title": {
+        "ar": "SLA واضح",
+        "en": "Clear SLAs",
+        "fr": "SLA clairs"
+      },
+      "desc": {
+        "ar": "استجابة سريعة للحوادث.",
+        "en": "Fast incident response.",
+        "fr": "Réponse rapide aux incidents."
+      }
+    },
+    {
+      "title": {
+        "ar": "تركيز أمني",
+        "en": "Security‑first",
+        "fr": "Sécurité d’abord"
+      },
+      "desc": {
+        "ar": "حماية البيانات والامتثال.",
+        "en": "Data protection & compliance.",
+        "fr": "Protection des données & conformité."
+      }
+    },
+    {
+      "title": {
+        "ar": "قابلية التوسع",
+        "en": "Scalable",
+        "fr": "Scalable"
+      },
+      "desc": {
+        "ar": "حلول تناسب النمو.",
+        "en": "Solutions that scale.",
+        "fr": "Solutions qui passent à l’échelle."
+      }
+    },
+    {
+      "title": {
+        "ar": "شفافية",
+        "en": "Transparency",
+        "fr": "Transparence"
+      },
+      "desc": {
+        "ar": "تقارير ولوحات متابعة.",
+        "en": "Reports & dashboards.",
+        "fr": "Rapports & tableaux de bord."
+      }
+    },
+    {
+      "title": {
+        "ar": "دعم حقيقي",
+        "en": "Real support",
+        "fr": "Support réel"
+      },
+      "desc": {
+        "ar": "قنوات واضحة.",
+        "en": "Clear channels.",
+        "fr": "Canaux clairs."
+      }
+    }
+  ],
+  "finalCTATitle": {
+    "ar": "جاهز لاستقرار وثبات؟",
+    "en": "Ready for reliable operations?",
+    "fr": "Prêt pour une exploitation fiable ?"
+  },
+  "finalCTADesc": {
+    "ar": "اطلب عرضًا مجانيًا أو احجز استشارة.",
+    "en": "Request a free quote or book a consult.",
+    "fr": "Demandez un devis ou réservez une consultation."
+  },
+  "finalCTAButton": {
+    "ar": "ابدأ الآن",
+    "en": "Get started",
+    "fr": "Commencer"
+  }
+}

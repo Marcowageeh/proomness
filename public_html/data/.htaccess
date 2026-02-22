@@ -1,0 +1,5 @@
+# Deny direct access to JSON and SQLite files and disable directory listing
+Options -Indexes
+<FilesMatch "\.(json|sqlite)$">
+  Require all denied
+</FilesMatch>

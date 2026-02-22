@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/../inc/functions.php'; admin_logout(); header('Location: /admin/login.php');

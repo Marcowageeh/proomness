@@ -1,0 +1,542 @@
+{
+  "application-management": {
+    "slug": "application-management",
+    "icon": "🛠️",
+    "title": {
+      "ar": "إدارة التطبيقات (Application Management)",
+      "en": "Application Management",
+      "fr": "Gestion d’applications"
+    },
+    "desc": {
+      "ar": "إدارة كاملة لتطبيقات الويب والمحمول تشمل تحديثات وإصلاح الأعطال وإدارة الإصدارات.",
+      "en": "End‑to‑end management for web/mobile apps: updates, fixes, release management.",
+      "fr": "Gestion de bout en bout des apps web/mobile : mises à jour, corrections, releases."
+    },
+    "deliver": [
+      {
+        "ar": "مراقبة الأداء (APM).",
+        "en": "APM & tracing.",
+        "fr": "APM & tracing."
+      },
+      {
+        "ar": "إصلاح الأعطال وتحديثات الأطر.",
+        "en": "Bug fixes & framework updates.",
+        "fr": "Bug fixes & framework updates."
+      },
+      {
+        "ar": "CI/CD وأتمتة النشر.",
+        "en": "CI/CD & deployment automation.",
+        "fr": "CI/CD & deployment automation."
+      },
+      {
+        "ar": "إدارة قواعد البيانات والنسخ الاحتياطي.",
+        "en": "DB management & backups.",
+        "fr": "DB management & backups."
+      },
+      {
+        "ar": "تقارير SLO/SLA.",
+        "en": "SLO/SLA reporting.",
+        "fr": "SLO/SLA reporting."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "مسح أولي → SOPs → صيانة.",
+        "en": "Initial audit → SOPs → maintenance.",
+        "fr": "Initial audit → SOPs → maintenance."
+      },
+      {
+        "ar": "إعداد CI/CD وإصدار آمن.",
+        "en": "CI/CD setup with safe releases.",
+        "fr": "CI/CD setup with safe releases."
+      },
+      {
+        "ar": "مراقبة وتقرير شهري.",
+        "en": "Monitoring & monthly report.",
+        "fr": "Monitoring & monthly report."
+      }
+    ],
+    "results": [
+      {
+        "ar": "استقرار أعلى وتقليل التوقف.",
+        "en": "Higher stability, less downtime.",
+        "fr": "Higher stability, less downtime."
+      },
+      {
+        "ar": "نشر سريع وآمن.",
+        "en": "Faster, safer releases.",
+        "fr": "Faster, safer releases."
+      },
+      {
+        "ar": "تحكم أفضل بالمخاطر.",
+        "en": "Better operational risk control.",
+        "fr": "Better operational risk control."
+      }
+    ],
+    "duration": {
+      "ar": "2–4 أسابيع للإعداد ثم عمل مستمر.",
+      "en": "2–4 weeks setup then ongoing.",
+      "fr": "2–4 weeks setup then ongoing."
+    },
+    "price": {
+      "ar": "من 600$/شهر (تقديري).",
+      "en": "From $600/mo (est.).",
+      "fr": "From $600/mo (est.)."
+    }
+  },
+  "website-management": {
+    "slug": "website-management",
+    "icon": "🌐",
+    "title": {
+      "ar": "إدارة المواقع الإلكترونية",
+      "en": "Website Management",
+      "fr": "Gestion de sites web"
+    },
+    "desc": {
+      "ar": "تحديث محتوى، SEO تقني، وصيانة CMS.",
+      "en": "Content updates, technical SEO, CMS upkeep.",
+      "fr": "Mises à jour, SEO technique, maintenance CMS."
+    },
+    "deliver": [
+      {
+        "ar": "تحديث محتوى دوري.",
+        "en": "Monthly/on‑demand content updates.",
+        "fr": "Monthly/on‑demand content updates."
+      },
+      {
+        "ar": "تحديث الإضافات والنسخ الاحتياطي.",
+        "en": "Plugin/theme updates & backups.",
+        "fr": "Plugin/theme updates & backups."
+      },
+      {
+        "ar": "تحسين سرعة الصفحة الأساسية.",
+        "en": "Core Web Vitals & performance.",
+        "fr": "Core Web Vitals & performance."
+      },
+      {
+        "ar": "مراقبة الاختراقات.",
+        "en": "Security monitoring & backups.",
+        "fr": "Security monitoring & backups."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "تدقيق → خطة → تنفيذ → تقارير.",
+        "en": "Audit → plan → execute → report.",
+        "fr": "Audit → plan → execute → report."
+      }
+    ],
+    "results": [
+      {
+        "ar": "تجربة أسرع وأمان أعلى.",
+        "en": "Faster UX & stronger security.",
+        "fr": "Faster UX & stronger security."
+      },
+      {
+        "ar": "تحسين SEO التقني.",
+        "en": "Improved technical SEO.",
+        "fr": "Improved technical SEO."
+      }
+    ],
+    "duration": {
+      "ar": "1–2 أسبوع للإعداد.",
+      "en": "1–2 weeks onboarding.",
+      "fr": "1–2 weeks onboarding."
+    },
+    "price": {
+      "ar": "من 250$/شهر.",
+      "en": "From $250/mo.",
+      "fr": "From $250/mo."
+    }
+  },
+  "hosting-infrastructure": {
+    "slug": "hosting-infrastructure",
+    "icon": "☁️",
+    "title": {
+      "ar": "الاستضافة والبنية التحتية",
+      "en": "Managed Hosting & Infrastructure",
+      "fr": "Hébergement & infrastructure"
+    },
+    "desc": {
+      "ar": "استضافة مُدارة مع نسخ احتياطي ومراقبة وأمن.",
+      "en": "Managed hosting with backups, monitoring & hardening.",
+      "fr": "Hébergement géré avec sauvegardes, surveillance et sécurité."
+    },
+    "deliver": [
+      {
+        "ar": "إعداد VPS/Cloud أو إدارة حسابات الاستضافة.",
+        "en": "Provision VPS/Cloud or manage accounts.",
+        "fr": "Provision VPS/Cloud or manage accounts."
+      },
+      {
+        "ar": "نسخ احتياطي واستعادة.",
+        "en": "Backups & recovery strategy.",
+        "fr": "Backups & recovery strategy."
+      },
+      {
+        "ar": "مراقبة السعة والسجلات.",
+        "en": "Capacity & log monitoring.",
+        "fr": "Capacity & log monitoring."
+      },
+      {
+        "ar": "Auto‑scaling وLoad Balancers.",
+        "en": "Auto‑scaling & load balancers.",
+        "fr": "Auto‑scaling & load balancers."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "تصميم → إعداد → اختبار تحميل → تسليم.",
+        "en": "Design → provision → load test → handover.",
+        "fr": "Design → provision → load test → handover."
+      }
+    ],
+    "results": [
+      {
+        "ar": "توافر عالي وأداء ثابت.",
+        "en": "High availability & stable performance.",
+        "fr": "High availability & stable performance."
+      },
+      {
+        "ar": "خطة طوارئ.",
+        "en": "Disaster recovery readiness.",
+        "fr": "Disaster recovery readiness."
+      }
+    ],
+    "duration": {
+      "ar": "1–3 أسابيع.",
+      "en": "1–3 weeks.",
+      "fr": "1–3 weeks."
+    },
+    "price": {
+      "ar": "من 150$/شهر + بنية تحتية.",
+      "en": "From $150/mo + infra.",
+      "fr": "From $150/mo + infra."
+    }
+  },
+  "performance": {
+    "slug": "performance",
+    "icon": "⚡",
+    "title": {
+      "ar": "تحسين الأداء",
+      "en": "Performance Tuning",
+      "fr": "Optimisation des performances"
+    },
+    "desc": {
+      "ar": "تحسين قواعد البيانات والتخزين المؤقت وCDN.",
+      "en": "DB tuning, caching, and CDNs.",
+      "fr": "Optimisation BD, caching et CDN."
+    },
+    "deliver": [
+      {
+        "ar": "تدقيق أداء شامل.",
+        "en": "Full performance audit.",
+        "fr": "Full performance audit."
+      },
+      {
+        "ar": "إعداد caching (Redis/Varnish).",
+        "en": "Caching (Redis/Varnish).",
+        "fr": "Caching (Redis/Varnish)."
+      },
+      {
+        "ar": "تحسين استعلامات قواعد البيانات.",
+        "en": "Optimize DB queries & indexes.",
+        "fr": "Optimize DB queries & indexes."
+      },
+      {
+        "ar": "إعداد CDN وضغط الملفات.",
+        "en": "CDN setup and asset compression.",
+        "fr": "CDN setup and asset compression."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "تدقيق → خطة → تنفيذ → قياس.",
+        "en": "Audit → plan → implement → measure.",
+        "fr": "Audit → plan → implement → measure."
+      }
+    ],
+    "results": [
+      {
+        "ar": "زمن تحميل أقل ودرجات أعلى.",
+        "en": "Lower load times & higher Lighthouse.",
+        "fr": "Lower load times & higher Lighthouse."
+      },
+      {
+        "ar": "تحويلات أعلى.",
+        "en": "Higher conversions.",
+        "fr": "Higher conversions."
+      }
+    ],
+    "duration": {
+      "ar": "1–3 أسابيع.",
+      "en": "1–3 weeks.",
+      "fr": "1–3 weeks."
+    },
+    "price": {
+      "ar": "من 400$ إعداد أولي.",
+      "en": "From $400 setup + support.",
+      "fr": "From $400 setup + support."
+    }
+  },
+  "security": {
+    "slug": "security",
+    "icon": "🛡️",
+    "title": {
+      "ar": "الأمن والحماية",
+      "en": "Security & Compliance",
+      "fr": "Sécurité & conformité"
+    },
+    "desc": {
+      "ar": "اختبارات اختراق وجدران حماية ومراقبة واستجابة للحوادث.",
+      "en": "Pentests, WAF/firewalls, SIEM, incident response.",
+      "fr": "Pentests, WAF/firewalls, SIEM, réponse aux incidents."
+    },
+    "deliver": [
+      {
+        "ar": "اختبار اختراق دوري.",
+        "en": "Periodic pentesting.",
+        "fr": "Periodic pentesting."
+      },
+      {
+        "ar": "WAF وFirewall وACL.",
+        "en": "WAF, firewalls & ACLs.",
+        "fr": "WAF, firewalls & ACLs."
+      },
+      {
+        "ar": "SSL/TLS ومراقبة الاختراق.",
+        "en": "SSL/TLS lifecycle & intrusion monitoring.",
+        "fr": "SSL/TLS lifecycle & intrusion monitoring."
+      },
+      {
+        "ar": "تنبيهات وSIEM.",
+        "en": "Alerting & SIEM.",
+        "fr": "Alerting & SIEM."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "تدقيق → تصحيح → تنفيذ → اختبارات.",
+        "en": "Audit → remediation → implementation → tests.",
+        "fr": "Audit → remediation → implementation → tests."
+      }
+    ],
+    "results": [
+      {
+        "ar": "مخاطر أقل وامتثال.",
+        "en": "Reduced risk & compliance.",
+        "fr": "Reduced risk & compliance."
+      },
+      {
+        "ar": "حماية بيانات المستخدم.",
+        "en": "User data protection.",
+        "fr": "User data protection."
+      }
+    ],
+    "duration": {
+      "ar": "2–4 أسابيع.",
+      "en": "2–4 weeks.",
+      "fr": "2–4 weeks."
+    },
+    "price": {
+      "ar": "من 600$ للفحص + مراقبة.",
+      "en": "From $600 audit + monitoring.",
+      "fr": "From $600 audit + monitoring."
+    }
+  },
+  "api-integrations": {
+    "slug": "api-integrations",
+    "icon": "🔗",
+    "title": {
+      "ar": "تكامل API",
+      "en": "API Integrations",
+      "fr": "Intégrations API"
+    },
+    "desc": {
+      "ar": "ربط المدفوعات وCRMs والبريد وخدمات الطرف الثالث.",
+      "en": "Payments, CRMs, mail & 3rd‑party services.",
+      "fr": "Paiements, CRM, mail & services tiers."
+    },
+    "deliver": [
+      {
+        "ar": "تحليل متطلبات.",
+        "en": "Requirements analysis.",
+        "fr": "Requirements analysis."
+      },
+      {
+        "ar": "تصميم API آمن.",
+        "en": "Secure API design.",
+        "fr": "Secure API design."
+      },
+      {
+        "ar": "اختبارات تكامل.",
+        "en": "Integration tests & automation.",
+        "fr": "Integration tests & automation."
+      },
+      {
+        "ar": "توثيق وأمان المصادقة.",
+        "en": "Docs & auth setup.",
+        "fr": "Docs & auth setup."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "تحليل → تطوير → اختبار → نشر.",
+        "en": "Analysis → development → test → deploy.",
+        "fr": "Analysis → development → test → deploy."
+      }
+    ],
+    "results": [
+      {
+        "ar": "عمليات مبسطة وأخطاء أقل.",
+        "en": "Simpler ops, fewer errors.",
+        "fr": "Simpler ops, fewer errors."
+      },
+      {
+        "ar": "موثوقية أعلى.",
+        "en": "Higher reliability.",
+        "fr": "Higher reliability."
+      }
+    ],
+    "duration": {
+      "ar": "1–3 أسابيع لكل تكامل.",
+      "en": "1–3 weeks per integration.",
+      "fr": "1–3 weeks per integration."
+    },
+    "price": {
+      "ar": "300–1200$ بحسب التعقيد.",
+      "en": "$300–$1,200 depending on complexity.",
+      "fr": "$300–$1,200 depending on complexity."
+    }
+  },
+  "sre": {
+    "slug": "sre",
+    "icon": "📈",
+    "title": {
+      "ar": "دعم فني وعمليات (SRE)",
+      "en": "Support & Operations (SRE)",
+      "fr": "Support & SRE"
+    },
+    "desc": {
+      "ar": "مراقبة الأنظمة والاستجابة للحوادث وأتمتة الصيانة.",
+      "en": "Monitoring, incident response, and ops automation.",
+      "fr": "Surveillance, réponse incidents et automatisation."
+    },
+    "deliver": [
+      {
+        "ar": "تذاكر ودعم بمستويات SLA.",
+        "en": "Ticketing & SLAs.",
+        "fr": "Ticketing & SLAs."
+      },
+      {
+        "ar": "مراقبة 24/7.",
+        "en": "24/7 monitoring.",
+        "fr": "24/7 monitoring."
+      },
+      {
+        "ar": "إدارة الحوادث وpostmortems.",
+        "en": "Incident mgmt & postmortems.",
+        "fr": "Incident mgmt & postmortems."
+      },
+      {
+        "ar": "أتمتة الصيانة.",
+        "en": "Maintenance automation.",
+        "fr": "Maintenance automation."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "إعداد تذاكر → تحديد SLAs → تدريب.",
+        "en": "Ticketing → SLAs → training.",
+        "fr": "Ticketing → SLAs → training."
+      }
+    ],
+    "results": [
+      {
+        "ar": "استجابة سريعة وتقارير موثوقية.",
+        "en": "Fast response & reliability reports.",
+        "fr": "Fast response & reliability reports."
+      },
+      {
+        "ar": "سجلات واضحة.",
+        "en": "Clear logs.",
+        "fr": "Clear logs."
+      }
+    ],
+    "duration": {
+      "ar": "أسبوعان للإعداد.",
+      "en": "Two weeks setup.",
+      "fr": "Two weeks setup."
+    },
+    "price": {
+      "ar": "بدءًا من 400$/شهر.",
+      "en": "From $400/mo.",
+      "fr": "From $400/mo."
+    }
+  },
+  "analytics-growth": {
+    "slug": "analytics-growth",
+    "icon": "🧠",
+    "title": {
+      "ar": "تحليلات ونمو رقمي",
+      "en": "Analytics & Growth",
+      "fr": "Analytique & croissance"
+    },
+    "desc": {
+      "ar": "إعداد التحليلات وتقارير الاستخدام واختبارات A/B.",
+      "en": "Analytics setup, usage reports, A/B tests.",
+      "fr": "Mise en place analytics, rapports, tests A/B."
+    },
+    "deliver": [
+      {
+        "ar": "إعداد GA4 والأحداث.",
+        "en": "GA4 & events.",
+        "fr": "GA4 & events."
+      },
+      {
+        "ar": "تقارير شهرية.",
+        "en": "Monthly reports.",
+        "fr": "Monthly reports."
+      },
+      {
+        "ar": "اختبارات A/B وCRO.",
+        "en": "A/B tests & CRO.",
+        "fr": "A/B tests & CRO."
+      },
+      {
+        "ar": "تحليلات الأداء.",
+        "en": "Performance analytics.",
+        "fr": "Performance analytics."
+      }
+    ],
+    "flow": [
+      {
+        "ar": "أدوات → تجارب → تنفيذ → تقييم.",
+        "en": "Tools → experiments → implement → evaluate.",
+        "fr": "Tools → experiments → implement → evaluate."
+      }
+    ],
+    "results": [
+      {
+        "ar": "رؤى دقيقة وزيادة التحويل.",
+        "en": "Insights & higher conversions.",
+        "fr": "Insights & higher conversions."
+      },
+      {
+        "ar": "قرارات مدفوعة بالبيانات.",
+        "en": "Data‑driven decisions.",
+        "fr": "Data‑driven decisions."
+      }
+    ],
+    "duration": {
+      "ar": "2–4 أسابيع.",
+      "en": "2–4 weeks.",
+      "fr": "2–4 weeks."
+    },
+    "price": {
+      "ar": "من 300$ للإعداد + تقارير.",
+      "en": "From $300 setup + reports.",
+      "fr": "From $300 setup + reports."
+    }
+  }
+}
