@@ -19,7 +19,7 @@ $D  = get_design();
           <?php endif; ?>
         </div>
       </div>
-      <div class="visual fade-up">
+      <div class="visual scale-in">
         <?php if(!empty($D['hero_image'])): ?>
           <img src="/<?php echo esc($D['hero_image']); ?>" alt="<?php echo esc(t($H['heroTitle'])); ?>">
         <?php else: ?>
@@ -39,7 +39,7 @@ $D  = get_design();
     </div>
     <div class="grid-4">
       <?php foreach($H['services'] as $svc): ?>
-        <a class="card fade-up" href="/service.php?slug=<?php echo esc($svc['slug']); ?>&lang=<?php echo esc($lang); ?>">
+        <a class="card scale-in" href="/service.php?slug=<?php echo esc($svc['slug']); ?>&lang=<?php echo esc($lang); ?>">
           <div class="icon"><?php echo esc($svc['icon']); ?></div>
           <h3><?php echo esc(t($svc['title'])); ?></h3>
           <p><?php echo esc(t($svc['desc'])); ?></p>
@@ -59,7 +59,7 @@ $D  = get_design();
     </div>
     <div class="grid-3">
       <?php $i=1; foreach($H['process'] as $p): ?>
-        <div class="card fade-up">
+        <div class="card fade-left">
           <div class="icon"><?php echo $i; ?></div>
           <h3><?php echo esc(t($p['title'])); ?></h3>
           <p><?php echo esc(t($p['desc'])); ?></p>
@@ -78,7 +78,7 @@ $D  = get_design();
     </div>
     <div class="grid-3">
       <?php foreach($H['why'] as $w): ?>
-        <div class="card fade-up">
+        <div class="card blur-in">
           <h3><?php echo esc(t($w['title'])); ?></h3>
           <p><?php echo esc(t($w['desc'])); ?></p>
         </div>

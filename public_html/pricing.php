@@ -7,7 +7,7 @@
     </div>
     <div class="pricing mt-2">
       <?php foreach($PL as $i=>$p): ?>
-        <div class="card plan fade-up <?php echo !empty($p['popular'])?'popular':'';?>">
+        <div class="card plan scale-in <?php echo !empty($p['popular'])?'popular':'';?>">
           <h3 class="mt-0"><?php echo esc(t($p['name'])); ?></h3>
           <div class="price"><?php echo esc($p['price']); ?><span style="font-size:14px"><?php echo esc(t($p['period'])); ?></span></div>
           <ul class="features">

@@ -7,7 +7,7 @@
     </div>
     <div class="grid-3 mt-2">
       <?php foreach($H['services'] as $svc): ?>
-        <a class="card fade-up" href="/service.php?slug=<?php echo esc($svc['slug']); ?>&lang=<?php echo esc($lang); ?>">
+        <a class="card scale-in" href="/service.php?slug=<?php echo esc($svc['slug']); ?>&lang=<?php echo esc($lang); ?>">
           <div style="font-size:2rem;margin-bottom:.5rem"><?php echo $svc['icon'] ?? '⚙️'; ?></div>
           <h3 class="mt-0"><?php echo esc(t($svc['title'])); ?></h3>
           <p><?php echo esc(t($svc['desc'])); ?></p>

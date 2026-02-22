@@ -212,6 +212,7 @@ if($_hasAudio):
 
 <main id="main">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/main.js"></script>
 <script>
 (function(){
   // Theme toggle
@@ -229,19 +230,5 @@ if($_hasAudio):
   }
   applyTheme(stored);
   toggle.addEventListener('click', function(){ applyTheme(document.body.dataset.theme === 'dark' ? 'light' : 'dark'); });
-
-  // Navbar scroll class
-  var nav = document.querySelector('.navbar');
-  if(nav) window.addEventListener('scroll', function(){ nav.classList.toggle('scrolled', window.scrollY > 10); }, {passive:true});
-
-  // Scroll animations (IntersectionObserver) — wait for DOM
-  document.addEventListener('DOMContentLoaded', function(){
-    if('IntersectionObserver' in window){
-      var io = new IntersectionObserver(function(entries){ entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } }); }, {threshold: 0.08, rootMargin: '0px 0px -40px 0px'});
-      document.querySelectorAll('.fade-up').forEach(function(el){ io.observe(el); });
-    } else {
-      document.querySelectorAll('.fade-up').forEach(function(el){ el.classList.add('visible'); });
-    }
-  });
 })();
 </script>
