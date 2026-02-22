@@ -27,3 +27,5 @@ public_html/data/client_push_rate.json
 
 # DO NOT UPLOAD marker
 DO_NOT_UPLOAD_HERE
+
+*.zip
