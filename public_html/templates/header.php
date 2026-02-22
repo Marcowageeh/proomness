@@ -21,9 +21,123 @@ $_pk = $page_key ?? 'home';
   <?php design_theme_link(); ?>
   <?php design_css(); ?>
   <?php design_font_style(); ?>
+  <style>
+/* ── Live Radio Top Bar ── */
+.live-radio-bar{background:linear-gradient(135deg,#dc2626,#b91c1c,#991b1b);color:#fff;padding:.5rem 0;font-size:.82rem;position:relative;z-index:1100;box-shadow:0 2px 12px rgba(220,38,38,.35);animation:liveBarSlide .4s ease;min-height:42px}
+@keyframes liveBarSlide{from{transform:translateY(-100%);opacity:0}to{transform:translateY(0);opacity:1}}
+.live-radio-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.18);padding:3px 10px;border-radius:20px;font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#fff;animation:liveDotPulse 1.2s infinite}
+@keyframes liveDotPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.live-radio-title{font-weight:600;opacity:.92;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px}
+.live-radio-btn{background:rgba(255,255,255,.2);border:none;color:#fff;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background .15s,transform .1s}
+.live-radio-btn:hover{background:rgba(255,255,255,.35);transform:scale(1.08)}
+.live-radio-btn:active{transform:scale(.95)}
+.live-radio-eq{display:flex;align-items:flex-end;gap:2px;height:18px}
+.live-radio-eq span{width:3px;background:#fff;border-radius:2px;opacity:.7;height:4px;transition:height .2s}
+.live-radio-eq.playing span{animation:eqBounce .6s ease infinite alternate}
+.live-radio-eq.playing span:nth-child(1){animation-delay:0s;height:14px}
+.live-radio-eq.playing span:nth-child(2){animation-delay:.1s;height:8px}
+.live-radio-eq.playing span:nth-child(3){animation-delay:.2s;height:16px}
+.live-radio-eq.playing span:nth-child(4){animation-delay:.15s;height:10px}
+.live-radio-eq.playing span:nth-child(5){animation-delay:.25s;height:12px}
+@keyframes eqBounce{0%{height:4px}100%{height:18px}}
+.live-radio-vol{-webkit-appearance:none;appearance:none;width:70px;height:4px;background:rgba(255,255,255,.3);border-radius:4px;outline:none;cursor:pointer}
+.live-radio-vol::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;border-radius:50%;background:#fff;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.live-radio-vol::-moz-range-thumb{width:12px;height:12px;border-radius:50%;background:#fff;cursor:pointer;border:none}
+.live-radio-close{background:none;border:none;color:rgba(255,255,255,.7);font-size:1.3rem;cursor:pointer;padding:0 4px;line-height:1;transition:color .15s}
+.live-radio-close:hover{color:#fff}
+@media(max-width:576px){.live-radio-title{max-width:100px;font-size:.75rem}.live-radio-vol{width:50px}}
+  </style>
 </head>
 <body>
 <a href="#main" class="skip-link"><?php echo $lang==='ar'?'انتقل إلى المحتوى':'Skip to content'; ?></a>
+
+<?php
+// ── Live Radio Top Bar ──
+$_R = load_json('radio.json');
+$_hasAudio = false;
+$_audioSrc = '';
+if(($_R['audio']['type'] ?? '') === 'file' && !empty($_R['audio']['file'])){
+  $_hasAudio = true;
+  $_audioSrc = '/' . $_R['audio']['file'];
+} elseif(($_R['audio']['type'] ?? '') === 'stream' && !empty($_R['audio']['url'])){
+  $_hasAudio = true;
+  $_audioSrc = $_R['audio']['url'];
+}
+if($_hasAudio):
+?>
+<div class="live-radio-bar" id="liveRadioBar">
+  <div class="container d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center gap-2">
+      <span class="live-radio-badge">
+        <span class="live-dot"></span>
+        <?php echo $lang==='ar'?'بث مباشر':'LIVE'; ?>
+      </span>
+      <span class="live-radio-title"><?php echo esc(t($_R['title'] ?? [])) ?: ($lang==='ar'?'البث المباشر':'Live Broadcast'); ?></span>
+    </div>
+    <div class="d-flex align-items-center gap-2">
+      <button class="live-radio-btn" id="liveRadioToggle" aria-label="Play/Pause" title="<?php echo $lang==='ar'?'تشغيل / إيقاف':'Play / Pause'; ?>">
+        <svg id="livePlayIcon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+        <svg id="livePauseIcon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>
+      </button>
+      <div class="live-radio-eq" id="liveEq">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <input type="range" class="live-radio-vol" id="liveRadioVol" min="0" max="100" value="70" title="<?php echo $lang==='ar'?'الصوت':'Volume'; ?>">
+      <button class="live-radio-close" id="liveRadioClose" aria-label="Close" title="<?php echo $lang==='ar'?'إغلاق':'Close'; ?>">&times;</button>
+    </div>
+  </div>
+  <audio id="liveRadioAudio" preload="none">
+    <source src="<?php echo esc($_audioSrc); ?>">
+  </audio>
+</div>
+<script>
+(function(){
+  var audio = document.getElementById('liveRadioAudio');
+  var btn = document.getElementById('liveRadioToggle');
+  var playIcon = document.getElementById('livePlayIcon');
+  var pauseIcon = document.getElementById('livePauseIcon');
+  var eq = document.getElementById('liveEq');
+  var vol = document.getElementById('liveRadioVol');
+  var closeBtn = document.getElementById('liveRadioClose');
+  var bar = document.getElementById('liveRadioBar');
+  if(!audio || !btn) return;
+
+  audio.volume = 0.7;
+
+  btn.addEventListener('click', function(){
+    if(audio.paused){
+      audio.play().then(function(){
+        playIcon.style.display='none';
+        pauseIcon.style.display='block';
+        eq.classList.add('playing');
+      }).catch(function(){});
+    } else {
+      audio.pause();
+      playIcon.style.display='block';
+      pauseIcon.style.display='none';
+      eq.classList.remove('playing');
+    }
+  });
+
+  vol.addEventListener('input', function(){
+    audio.volume = this.value / 100;
+  });
+
+  closeBtn.addEventListener('click', function(){
+    audio.pause();
+    bar.style.animation = 'liveBarSlide .3s ease reverse forwards';
+    setTimeout(function(){ bar.style.display = 'none'; }, 300);
+  });
+
+  audio.addEventListener('ended', function(){
+    playIcon.style.display='block';
+    pauseIcon.style.display='none';
+    eq.classList.remove('playing');
+  });
+})();
+</script>
+<?php endif; ?>
 
 <nav class="navbar navbar-expand-lg">
   <div class="container">

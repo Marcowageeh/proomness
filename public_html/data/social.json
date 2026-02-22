@@ -1,0 +1,130 @@
+[
+    {
+        "id": "facebook",
+        "name": "Facebook",
+        "url": "",
+        "icon": "facebook",
+        "enabled": true,
+        "order": 1
+    },
+    {
+        "id": "twitter",
+        "name": "X (Twitter)",
+        "url": "",
+        "icon": "twitter",
+        "enabled": true,
+        "order": 2
+    },
+    {
+        "id": "instagram",
+        "name": "Instagram",
+        "url": "",
+        "icon": "instagram",
+        "enabled": true,
+        "order": 3
+    },
+    {
+        "id": "linkedin",
+        "name": "LinkedIn",
+        "url": "",
+        "icon": "linkedin",
+        "enabled": true,
+        "order": 4
+    },
+    {
+        "id": "youtube",
+        "name": "YouTube",
+        "url": "",
+        "icon": "youtube",
+        "enabled": true,
+        "order": 5
+    },
+    {
+        "id": "tiktok",
+        "name": "TikTok",
+        "url": "",
+        "icon": "tiktok",
+        "enabled": true,
+        "order": 6
+    },
+    {
+        "id": "snapchat",
+        "name": "Snapchat",
+        "url": "",
+        "icon": "snapchat",
+        "enabled": true,
+        "order": 7
+    },
+    {
+        "id": "whatsapp",
+        "name": "WhatsApp",
+        "url": "",
+        "icon": "whatsapp",
+        "enabled": true,
+        "order": 8
+    },
+    {
+        "id": "telegram",
+        "name": "Telegram",
+        "url": "",
+        "icon": "telegram",
+        "enabled": true,
+        "order": 9
+    },
+    {
+        "id": "pinterest",
+        "name": "Pinterest",
+        "url": "",
+        "icon": "pinterest",
+        "enabled": true,
+        "order": 10
+    },
+    {
+        "id": "github",
+        "name": "GitHub",
+        "url": "",
+        "icon": "github",
+        "enabled": true,
+        "order": 11
+    },
+    {
+        "id": "dribbble",
+        "name": "Dribbble",
+        "url": "",
+        "icon": "dribbble",
+        "enabled": true,
+        "order": 12
+    },
+    {
+        "id": "behance",
+        "name": "Behance",
+        "url": "",
+        "icon": "behance",
+        "enabled": true,
+        "order": 13
+    },
+    {
+        "id": "discord",
+        "name": "Discord",
+        "url": "",
+        "icon": "discord",
+        "enabled": true,
+        "order": 14
+    },
+    {
+        "id": "reddit",
+        "name": "Reddit",
+        "url": "",
+        "icon": "reddit",
+        "enabled": true,
+        "order": 15
+    },
+    {
+        "id": "threads",
+        "name": "Threads",
+        "url": "",
+        "icon": "threads",
+        "enabled": true,
+        "order": 16
+    }
+]

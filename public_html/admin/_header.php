@@ -186,6 +186,7 @@ if('Notification' in window && Notification.permission==='default'){
       <a href="/admin/ai_settings.php" <?php echo basename($_SERVER['SCRIPT_NAME'])==='ai_settings.php'?'class="active"':''; ?>>🤖 AI</a>
       <a href="/admin/hours.php" <?php echo basename($_SERVER['SCRIPT_NAME'])==='hours.php'?'class="active"':''; ?>>🕐 <?php echo $lang==='ar'?'ساعات العمل':'Hours'; ?></a>
       <a href="/admin/radio.php" <?php echo basename($_SERVER['SCRIPT_NAME'])==='radio.php'?'class="active"':''; ?>>📻 <?php echo $lang==='ar'?'الراديو':'Radio'; ?></a>
+      <a href="/admin/social.php" <?php echo basename($_SERVER['SCRIPT_NAME'])==='social.php'?'class="active"':''; ?>>📱 <?php echo $lang==='ar'?'التواصل الاجتماعي':'Social Media'; ?></a>
       <hr style="border-color:rgba(255,255,255,.08);margin:1rem .5rem">
       <a href="/admin/logout.php" style="color:#f87171">🚪 <?php echo $lang==='ar'?'خروج':'Logout'; ?></a>
     </nav>
